@@ -1,7 +1,7 @@
 /* W02-Task - Profile Home Page */
 const fullName = 'Mark Tsai'
 const currentYear = 2024
-const profilePicture = '../images/59379.jpg'
+const profilePicture = '/cse121b/images/59379.jpg'
 
 const nameElement = document.getElementById('name')
 const yearElement = document.querySelector('#year')
