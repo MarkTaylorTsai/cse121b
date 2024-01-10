@@ -5,7 +5,7 @@ const profilePicture = '../images/59379.jpg'
 
 const nameElement = document.getElementById('name')
 const yearElement = document.querySelector('#year')
-const imageElement = document.querySelector('img')
+const imageElement = document.querySelector('picture img')
 
 nameElement.innerHTML = `<strong>${fullName}</strong>`
 imageElement.setAttribute('src', profilePicture)
